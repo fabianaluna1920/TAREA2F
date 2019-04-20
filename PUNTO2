@@ -1,3 +1,25 @@
+/* 2. Elabore una funcion que verifica que una fecha sea ingresada correctamente. La fecha se ingresa como una variable del tipo de la 
+	estructura Calendario (esta estructura es lo que se conoce como un campo de bits ya que cada miembro de la estructura comparte cierto
+	numero de bits de una misma variable miembro de la estructura). 
+	
+	-Se debe verificar que el dato ingresado en el campo "dia" no sea menor a 1 ni mayor a 31
+	-Se debe verificar que el dato ingresado en el campo "mes" no sea menor a 1 ni mayor a 12
+	-Se debe verificar que los meses de abril, junio, septiembre y noviembre no tengan más de 30 días
+	-Se debe verificar que los meses de enero, marzo, mayo, julio, agosto, octubre y diciembre no tengan más de 31 días
+	-Se debe verificar que el mes de febrero no tenga mas de 28 dias, a excepcion de cuando el año sea bisiesto y debe tener 29
+	-Se debe verificar que el campo "anio" no sea menor a 0 ni mayor 127. Los años se cuentan a partir del año 2000 que corresponde
+	al año 0 y así sucesivamente. Por ejemplo para ingresar el año 2019 se debe ingresar un 19 en el campo anio.
+	
+	Verificar año bisisesto:
+	-Debe verificar si el año ingresado es divisible por 4, luego debe verificar si es divisible por 100.
+	    -Si es divisible por 100 entonces debe verificar que tambien sea divisible por 400 para que sea bisiesto, sino no es bisiesto
+	-Si es divisible por 4 y no es divisible por 100 entonces es bisiesto
+	
+	La funcion debe retornar un dato booleano que es 1 si la fecha es correcta o 0 en caso contrario
+	La funcion debe llamarse checkDate y recibir como parametro de entrada una variable del tipo de la estructura Calendario
+	Debe declarar la funcion checkDate antes de la funcion main y debe definirla despues de la funcion main*/
+	
+
 #include<iostream>
 #include<string>
 

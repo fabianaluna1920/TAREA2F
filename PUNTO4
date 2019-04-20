@@ -1,3 +1,29 @@
+/* 4. Recursion: Es una propiedad que tienen las funciones en diversos lenguajes de programacion, incluido C++ de poder invocarse a si mismas.
+	  Es decir, una funcion es recursiva cuando en el bloque de codigo que la compone existe una linea de codigo en la que ejecuta un llamado
+	  a si misma. Son comunmente utilizadas para resolver problemas que involucran la descomposicion de un problema en problemas mas simples
+	  que se resuelven de manera identica, por ejemplo: el calculo de series, sumatorias, productorias y factoriales, tambien en algoritmos
+	  de busqueda y ordenamiento de los elementos de un arreglo (merge search por ejemplo)
+	  
+	  La siguiente funcion de ejemplo es una funcion que calcula el factorial de un numero entero:
+	  
+	  int factorial(int n)
+	  {
+         if ((n==0)||(n==1))
+			return 1;
+         else
+			return n*factorial(n-1);
+	  }
+	  
+	  Codifique una funcion recursiva que calcule la suma de los cuadrados de N numeros, la funcion debe retornar un valor de tipo entero y
+	  recibir como parametro de entrada un dato de tipo entero denominado N. La funcion debe llamarse serieCuadrados. La funcion debe calcular
+	  la suma de los cuadrados de los N numeros indicados por el parametro de entrada y retornar dicha suma. Ejemplo: si N es 5 entonces la
+	  funcion debe calcular 1^2 + 2^2 + 3^2 + 4^2 + 5^2 y retornar el resultado de esa suma. SOLO SE PERMITE HACERLO DE MANERA RECURSIVA. Para
+	  hacer la elevacion al cuadrado puede usar la funcion pow(x,y) de la libreria cmath, recuerde incluir la libreria con la directiva del
+	  preprocesador #include<nombre_libreria>. Recuerde declarar la funcion antes de la funcion main y de hacer la definicion de la funcion
+	  despues del bloque de codigo de la funcion main.
+	  */
+
+
 #include <cmath>
 #include <iostream>
 

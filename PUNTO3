@@ -1,0 +1,41 @@
+#include <iostream>
+
+using namespace std;
+
+void printHelloMsg(string message="Hello",int a=1);
+
+
+int main()
+{
+    string msg = "¡Que comience la fiesta!";
+    printHelloMsg();
+    printHelloMsg(msg);
+    printHelloMsg(msg, 4);
+}
+
+void printHelloMsg(string message,int a )
+{
+    if(a>0)
+    {
+       int i=0;
+
+       while(i<a)
+       {
+           cout<<""<<message<<endl;
+           i++;
+       }
+
+    }
+
+   else if(a<0)
+   {
+      cout<<"The function does not accept negative input parameters"<<endl;
+
+
+   }
+       else
+          {
+           cout<<""<<message<<endl;
+
+          }
+   }

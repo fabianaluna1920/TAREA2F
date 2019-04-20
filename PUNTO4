@@ -1,0 +1,28 @@
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+
+int suma(int n);
+
+int main()
+{
+     int Base;
+     cout<<"Base: ";
+     cin>>Base;
+
+     int p=suma(Base);
+     cout<<"Suma  de las Potencias es:: "<<p<<endl;
+
+}
+int suma(int n)
+{
+    if(n==1)
+    {
+        return 1;
+    }
+    else
+    {
+        return n*n+suma(n-1);
+    }
+}

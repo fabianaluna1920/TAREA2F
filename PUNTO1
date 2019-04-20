@@ -1,3 +1,15 @@
+/* 1. Un cuadrado magico es un arreglo bidimiensional de NxN que se caracteriza porque la suma de los elementos de sus filas,
+	de sus columnas y de sus diagonales (las dos diagonales) es igual, es decir, la suma de los elementos de la fila 1 tiene que
+	ser igual a la suma de los elementos de la columna 3 y por ende igual a la suma de los elementos de la diagonal 1 y la diagonal 2
+	
+	Elabore una funcion que verifique que un arreglo de dimensiones 8x8 (magic_square) es un cuadrado magico, debe verificar la suma de 
+	los elementos de cada una de las filas, la suma de los elementos de cada una de las columnas y la suma de los elementos de las dos
+	diagonales. La funcion debe retornar un valor entero que es 0 si el arreglo no es magico y 1 si es magico. La funcion debe recibir
+	como parametro de entrada un arreglo de tipo entero de dimensiones 8x8. La funcion debe llamarse checkMagicArray y debe declararla
+	antes de la funcion main y debe definirla despues de la funcion main
+*/
+	
+
 #include <iostream>
 #include<math.h>
 

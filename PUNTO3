@@ -1,3 +1,10 @@
+/* 3.Diseñe una funcion que recibe 2 parametros de entrada, el primero es un string que debe imprimirse cierto numero de veces. 
+    El numero de veces va estar indicado por el segundo parametro que debe ser de tipo int. La funcion debe contar con parametros
+	por defecto, es decir, debe imprimir algun string por lo menos una vez a pesar de que no se le pase ningun parametro string ni ningun
+	parametro int. Si la funcion recibe un numero negativo como parametro de entrada entonces se debe detener la ejecución de la funcion
+    con un mensaje de despedida. La funcion se debe llamar printHelloMsg y no es necesario que tenga valor de retorno*/
+
+
 #include <iostream>
 
 using namespace std;
